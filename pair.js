@@ -72,17 +72,11 @@ var randomItem = selectRandomItem(items);
 
 
                         
-                        // Read creds.json
-let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
-
-// Encode to base64
-const base64Session = Buffer.from(data).toString('base64');
-
-// Add prefix for identification
-const md = "trend-x~" + base64Session;
-
-// Send the session string to user
-let code = await sock.sendMessage(sock.user.id, { text: md });
+                        const { upload } = require('./mega');
+                        const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
+                        const string_session = mega_url.replace('https://mega.nz/file/', '');
+                        let md = "trend-x~" + string_session;
+                        let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hey there, TREND-X User!* 👋🏻
 
 Thanks for using *TREND-X* — your session has been successfully created!
