@@ -77,7 +77,7 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "trend-x~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, TREND-X User!* 👋🏻
+                        let desc = `*Hey there, TREBD-X User!* 👋🏻
 
 Thanks for using *TREND-X* — your session has been successfully created!
 
@@ -88,15 +88,15 @@ Thanks for using *TREND-X* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O/100
+https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/trendex2030/TREND-X
+git clone https://github.com/trendex2030/TREND-X
 
 ——————
 
-> *© Powered by Trendex King*
+> *© Powered by trend-x King*
 Stay cool and hack smart. ✌🏻`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
@@ -104,7 +104,7 @@ contextInfo: {
 externalAdReply: {
 title: "TREND-X",
 thumbnailUrl: "https://files.catbox.moe/adymbp.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O/100",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -124,7 +124,7 @@ Thanks for using *TREND-X* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O/100
+https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
@@ -132,7 +132,7 @@ https://github.com/trendex2030/TREND-X
 
 ——————
 
-> *© Powered by Trendex King*
+> *© Powered by trendex King*
 Stay cool and hack smart. ✌🏻`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
@@ -140,7 +140,7 @@ contextInfo: {
 externalAdReply: {
 title: "TREND-X",
 thumbnailUrl: "https://files.catbox.moe/adymbp.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O/100",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
