@@ -77,7 +77,7 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "trend-x~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, TREBD-X User!* 👋🏻
+                        let desc = `*Hey there, TREND-X User!* 👋🏻
 
 Thanks for using *TREND-X* — your session has been successfully created!
 
