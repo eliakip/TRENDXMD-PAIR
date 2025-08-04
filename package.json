@@ -4,9 +4,9 @@
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name malvin-xd",
-      "stop": "pm2 stop malvin-xd",
-     "restart": "pm2 restart malvin-xd"
+      "start": "pm2 start index.js --deep-monitoring --attach --name TREND-X",
+      "stop": "pm2 stop TREND-X",
+     "restart": "pm2 restart TREND-X"
     },
   "dependencies": {
    "@whiskeysockets/baileys": "^6.7.17",          
