@@ -1,4 +1,4 @@
-# 🚀 Eliakim-Session-Generator
+# 🚀 Eliakimxmd-Session-Generator
 
 ## 📊 Visitor Counter
 
