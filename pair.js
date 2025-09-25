@@ -13,7 +13,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-    async function TREND_X_PAIR_CODE() {
+    async function ELIAKIM_XMD_PAIR_CODE() {
         const {
             state,
             saveCreds
