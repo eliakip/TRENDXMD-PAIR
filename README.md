@@ -1,4 +1,4 @@
-# 🚀 Malvin-Session-Generator
+# 🚀 Eliakim-Session-Generator
 
 ## 📊 Visitor Counter
 
